@@ -1,0 +1,51 @@
+﻿@page
+@model RazorPagesEventMaker_Chapter13.IndexCountryModel
+@using RazorPagesEventMaker_Chapter13.Interfaces
+@inject ICountryRepository  repository
+
+
+@{
+    ViewData["Title"] = "IndexCountry";
+}
+
+<h1>Countries</h1>
+<h1>List of contries </h1>
+<p>
+    <a asp-page="CreateCountry">Create New Country</a>
+</p>
+<div>
+    <ul>
+        <li> There are @repository.GetAllCountries().Count countries</li>
+    </ul>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Code
+            </th>
+            <th>
+                Name
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Countries)
+        {
+            <tr>
+                <td>
+                    @item.Code
+                </td>
+                <td>
+                    @item.Name
+                </td>
+                <td>
+                    <a asp-page="CountryEvents" asp-route-Code="@item.Code">Country Events</a> |
+                    <a asp-page="DeleteCountry" asp-route-Code="@item.Code">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

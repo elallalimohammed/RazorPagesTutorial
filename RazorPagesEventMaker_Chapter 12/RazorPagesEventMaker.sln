@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesEventMaker_Chap12", "RazorPagesEventMaker\RazorPagesEventMaker_Chap12.csproj", "{99AF7935-9DBA-4631-AE22-4B8C21B864D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventMakerXUnitTests", "EventMakerXUnitTests\EventMakerXUnitTests.csproj", "{298D56B2-6B40-4CF1-9CBF-11084557AA9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesEventMaker_Chap13", "RazorPagesEventMaker_Chap13\RazorPagesEventMaker_Chap13.csproj", "{31AD4116-3851-4301-92BD-29160E3AC19E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesEventMaker_Chap11", "RazorPagesEventMaker_Chap11\RazorPagesEventMaker_Chap11.csproj", "{17D517FA-0877-47FE-BE5F-01867286B59A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesEventMaker_Chap10", "RazorPagesEventMaker_Chap10\RazorPagesEventMaker_Chap10.csproj", "{F4B3AA29-1A40-45CE-A0DD-EED44A9FDB2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesEventMaker_Chap7", "RazorPagesEventMaker_Chap7\RazorPagesEventMaker_Chap7.csproj", "{B64983EB-07C4-4ECD-8685-299115B3F3A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesEventMaker_Chap8", "RazorPagesEventMaker_Chap8\RazorPagesEventMaker_Chap8.csproj", "{5A36FA42-1D12-47F4-80D6-9C28FA98DE26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesEventMaker_Chap9_1", "RazorPagesEventMaker_Chap9_1\RazorPagesEventMaker_Chap9_1.csproj", "{3E246E39-DB5C-46C6-B726-82F132980903}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesEventMaker_Chap9_2", "RazorPagesEventMaker_Chap9_2\RazorPagesEventMaker_Chap9_2.csproj", "{1B742BEB-6F38-46CC-A670-088F17A59CEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesEventMaker_Chap4_5_6", "RazorPagesEventMaker_Chap4_5_6\RazorPagesEventMaker_Chap4_5_6.csproj", "{73B0C076-C90F-4C89-BA20-30E724C1D0C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99AF7935-9DBA-4631-AE22-4B8C21B864D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99AF7935-9DBA-4631-AE22-4B8C21B864D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99AF7935-9DBA-4631-AE22-4B8C21B864D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99AF7935-9DBA-4631-AE22-4B8C21B864D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{298D56B2-6B40-4CF1-9CBF-11084557AA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298D56B2-6B40-4CF1-9CBF-11084557AA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298D56B2-6B40-4CF1-9CBF-11084557AA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298D56B2-6B40-4CF1-9CBF-11084557AA9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31AD4116-3851-4301-92BD-29160E3AC19E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31AD4116-3851-4301-92BD-29160E3AC19E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31AD4116-3851-4301-92BD-29160E3AC19E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31AD4116-3851-4301-92BD-29160E3AC19E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D517FA-0877-47FE-BE5F-01867286B59A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D517FA-0877-47FE-BE5F-01867286B59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D517FA-0877-47FE-BE5F-01867286B59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D517FA-0877-47FE-BE5F-01867286B59A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B3AA29-1A40-45CE-A0DD-EED44A9FDB2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B3AA29-1A40-45CE-A0DD-EED44A9FDB2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B3AA29-1A40-45CE-A0DD-EED44A9FDB2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B3AA29-1A40-45CE-A0DD-EED44A9FDB2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B64983EB-07C4-4ECD-8685-299115B3F3A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64983EB-07C4-4ECD-8685-299115B3F3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64983EB-07C4-4ECD-8685-299115B3F3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64983EB-07C4-4ECD-8685-299115B3F3A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A36FA42-1D12-47F4-80D6-9C28FA98DE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A36FA42-1D12-47F4-80D6-9C28FA98DE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A36FA42-1D12-47F4-80D6-9C28FA98DE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A36FA42-1D12-47F4-80D6-9C28FA98DE26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E246E39-DB5C-46C6-B726-82F132980903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E246E39-DB5C-46C6-B726-82F132980903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E246E39-DB5C-46C6-B726-82F132980903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E246E39-DB5C-46C6-B726-82F132980903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B742BEB-6F38-46CC-A670-088F17A59CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B742BEB-6F38-46CC-A670-088F17A59CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B742BEB-6F38-46CC-A670-088F17A59CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B742BEB-6F38-46CC-A670-088F17A59CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B0C076-C90F-4C89-BA20-30E724C1D0C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B0C076-C90F-4C89-BA20-30E724C1D0C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B0C076-C90F-4C89-BA20-30E724C1D0C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B0C076-C90F-4C89-BA20-30E724C1D0C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEE90CB3-50D7-4151-A158-71A714D7D5B2}
+	EndGlobalSection
+EndGlobal
