@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using RazorPagesEventMaker_Chapter13.Interfaces;
 
 namespace RazorPagesEventMaker_Chapter13
 {
@@ -12,9 +14,12 @@ namespace RazorPagesEventMaker_Chapter13
         IEventRepository repo;
         [BindProperty]
         public Event Event { get; set; }
-        public CreateEventModel(IEventRepository repository)
+        public SelectList CountryCodes { get; set; }
+        public CreateEventModel(IEventRepository repository, ICountryRepository crepo)
         {
             repo = repository;
+            List<Country> countries = crepo.GetAllCountries();
+            CountryCodes = new SelectList(countries, "Code", "Name");
         }
         public IActionResult OnGet()
         {
