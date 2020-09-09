@@ -14,7 +14,7 @@ namespace RazorPagesEventMaker_Chapter13
         public Event Event { get; set; }
         public EditEventModel(IEventRepository repository)
         {
-            repo = repository;
+          repo = repository;
         }
         public IActionResult OnGet(int id)
         {
