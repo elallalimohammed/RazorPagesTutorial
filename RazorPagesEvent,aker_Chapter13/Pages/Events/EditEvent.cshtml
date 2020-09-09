@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "{id}"
 @model RazorPagesEventMaker_Chapter13.EditEventModel
 @{
     ViewData["Title"] = "EditEvent";
@@ -29,6 +29,11 @@
                 <label asp-for="@Model.Event.DateTime" class="control-label"></label>
                 <input asp-for="@Model.Event.DateTime" class="form-control" />
                 <span asp-validation-for="@Model.Event.DateTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Event.CountryCode" class="control-label"></label>
+                <input asp-for="@Model.Event.CountryCode" class="form-control" />
+                <span asp-validation-for="@Model.Event.CountryCode" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />

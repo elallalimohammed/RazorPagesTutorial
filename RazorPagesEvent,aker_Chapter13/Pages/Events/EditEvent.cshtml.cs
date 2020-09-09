@@ -35,4 +35,40 @@ namespace RazorPagesEventMaker_Chapter13
             return RedirectToPage("Index");
         }
     }
+
+
+
+
+    //public class EditEventModel : PageModel
+    //{
+    //    IEventRepository repo;
+    //    [BindProperty]
+    //    public Event Event { get; set; }
+    //    public EditEventModel(IEventRepository repository)
+    //    {
+    //        repo = repository;
+    //    }
+    //    public IActionResult OnGet(int id)
+    //    {
+    //        if (id == null)
+    //        {
+    //            return NotFound();
+    //        }
+    //        Event = repo.GetEvent(id);
+    //        if (Event == null)
+    //        {
+    //            return null;
+    //        }
+    //        return Page();
+    //    }
+    //    public IActionResult OnPost()
+    //    {
+    //        if (!ModelState.IsValid)
+    //        {
+    //            return Page();
+    //        }
+    //        repo.UpdateEvent(Event);
+    //        return RedirectToPage("Index");
+    //    }
+    //}
 }
