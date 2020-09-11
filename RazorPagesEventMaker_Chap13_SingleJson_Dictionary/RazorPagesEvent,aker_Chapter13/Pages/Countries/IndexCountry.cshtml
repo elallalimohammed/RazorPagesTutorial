@@ -1,0 +1,40 @@
+﻿@page
+@model RazorPagesEventMaker_Chapter13.IndexCountryModel
+@{
+    ViewData["Title"] = "IndexCountry";
+}
+<h1>List of contries </h1>
+<p>
+    <a asp-page="CreateCountry">Create New Country</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Code
+            </th>
+            <th>
+                Name
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+ @foreach (var item in Model.Countries)
+        {
+            <tr>
+                <td>
+                    @item.Value.Code
+                </td>
+                <td>
+                    @item.Value.Name
+                </td>
+                <td>
+                    <a asp-page="CountryEvents" asp-route-Code="@item.Value.Code">Country Events</a> |
+                    <a asp-page="DeleteCountry" asp-route-Code="@item.Value.Code">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

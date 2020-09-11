@@ -1,0 +1,67 @@
+﻿@page
+@using RazorPagesEventMaker_Chapter13
+@inject IEventRepository  repository
+@model RazorPagesEventMaker_Chapter13.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>List of events </h1>
+<p>
+    <a asp-page="CreateEvent">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                City
+            </th>
+            <th>
+                DateTime
+            </th>
+            <th>
+                Country Code
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Events)
+        {
+        <tr>
+            <td>
+                @item.Value.Id
+            </td>
+            <td>
+                @item.Value.Name
+            </td>
+            <td>
+                @item.Value.Description
+            </td>
+            <td>
+                @item.Value.City
+            </td>
+            <td>
+                @item.Value.DateTime
+            </td>
+            <td>
+                @item.Value.CountryCode
+            </td>
+            <td>
+                <a asp-page="EditEvent" asp-route-id="@item.Value.Id">Edit</a>|
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+
