@@ -13,7 +13,7 @@ namespace RazorPagesEventMaker_Chapter13.Helpers
         public static Dictionary<string,Country> ReadJson(string JsonFileName)
         {
             string jsonString = File.ReadAllText(JsonFileName);
-            return JsonConvert.DeserializeObject<Dictionary<string, Country>>(jsonString);
+            return JsonConvert.DeserializeObject<Dictionary<string,Country>>(jsonString);
         }
     }
 }

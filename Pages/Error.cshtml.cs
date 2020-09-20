@@ -20,7 +20,7 @@ namespace RazorPagesTutorial.Pages
 
         public ErrorModel(ILogger<ErrorModel> logger)
         {
-            _logger = logger;
+            _logger =logger;
         }
 
         public void OnGet()
