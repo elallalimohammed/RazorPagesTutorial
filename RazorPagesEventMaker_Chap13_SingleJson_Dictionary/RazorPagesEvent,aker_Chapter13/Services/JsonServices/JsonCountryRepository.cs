@@ -1,7 +1,6 @@
 ﻿
 using RazorPagesEventMaker_Chapter13;
 using RazorPagesEventMaker_Chapter13.Interfaces;
-using RazorpagesEventMaker_Chapter13;
 using System;
 using System.Collections.Generic;
 using System.Linq;
