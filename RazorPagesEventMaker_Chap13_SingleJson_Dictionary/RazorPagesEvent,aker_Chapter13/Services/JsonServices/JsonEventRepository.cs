@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using JsonFileCountryReader = RazorPagesEventMaker_Chapter13.Helpers.JsonFileCountryReader;
 
 namespace RazorPagesEvent_aker_Chapter13.Services.JsonServices
 {
@@ -19,7 +20,7 @@ namespace RazorPagesEvent_aker_Chapter13.Services.JsonServices
             {
                  foreach (var ev in c.Value.EventList)
                     {
-                        listEvents.Add(ev.Key, ev.Value);
+                       listEvents.Add(ev.Key, ev.Value);
                     }
             }
             return listEvents;
@@ -53,7 +54,7 @@ namespace RazorPagesEvent_aker_Chapter13.Services.JsonServices
             }            
             return new Event();
         }
-        public Dictionary<string, Country> GetAllCountries()
+        private Dictionary<string, Country> GetAllCountries()
         {
             Dictionary<string, Country> returnList = JsonFileCountryReader.ReadJson(JsonFileName);
             return returnList;
